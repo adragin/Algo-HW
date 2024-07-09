@@ -105,7 +105,7 @@ public static int countConsonantRecursion(String str) {
 
 
 private static int countConsonant(String str, int index) {
-    if (index <= 0) {
+    if (index < 0) {
         return 0;
     }
     int count = isConsonant(str.charAt(index)) ? 1 : 0;
