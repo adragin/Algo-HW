@@ -53,6 +53,7 @@ public class Merge_Sort_desc {
         int arrayPointer = 0;
 
         while (leftPointer < leftArrLength && rightPointer < rightArrLength) {
+            // Изменение знака в следующей строке с '<' на '>' меняет сортировку с "по возрастанию" на  "по убыванию" 
             if (leftArr[leftPointer] > rightArr[rightPointer]) {    // сравниваем элемент в левом и правом подмассиве
                 array[arrayPointer] = leftArr[leftPointer];         // если условие верно, то элемент в левом меньше ->
                 // сохраняем его в 0 ячейку основного массива
