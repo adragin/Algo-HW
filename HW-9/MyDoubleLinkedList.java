@@ -1,11 +1,5 @@
 package de.telran.lesson_9_20240829;
 
-//  + pushToTail(int data),
-//  - pushToIndex(int index, int data)
-//  - removeLast(),
-//  - remove(int index)
-//  - get(int index)
-
 public class MyDoubleLinkedList {
     private Node2 head;
     private Node2 tail;
@@ -167,14 +161,3 @@ public class MyDoubleLinkedList {
         System.out.println("]  (HEAD = " + getHead().getData() + ", TAIL = " + getTail().getData() + ")");
     }
 }
-
-//*pushToHead(int data),
-//*pushToTail(int data),
-//*pushToIndex(int index, int data)
-//*removeFirst(),
-//*removeLast(),
-//remove(int index)
-//get(int index)
-//*size()
-//*print()
-
